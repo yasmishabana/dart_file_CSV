@@ -20,7 +20,7 @@ void main(List<String> arguments) {
   }
   print("list====" + studentlst.toString());
 
-  String studentcsv = 'name,age\n';
+  String studentcsv = 'NAME,AGE\n';
   studentlst.forEach((student) {
     studentcsv += '${student['name']},${student['age']}\n';
   });
