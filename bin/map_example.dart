@@ -21,11 +21,7 @@ void main(List<String> args) {
         map[key] = value;
       }
     }
-    print("map is :" + map.toString());
+
     break;
-    // map.forEach((key, value) {
-    //   print(key + ':' + value.toString());
-    // }
-    // );
   }
 }
